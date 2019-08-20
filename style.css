@@ -24,7 +24,7 @@ body {
   transform: translateY(-50%);
 }
 
-.card:hover {
+/* .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 .card:hover .image-shoe {
@@ -175,4 +175,22 @@ button:hover {
     margin-bottom: 1rem;
     font-size: 1rem;
   }
+} */
+
+/* FLEXBOX TEST */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card div {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.box-1 {
+  flex: 2;
+}
+.box-2 {
+  flex: 1;
 }
