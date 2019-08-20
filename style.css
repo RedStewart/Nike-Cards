@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -183,14 +189,30 @@ button:hover {
   flex-direction: column;
 }
 .card div {
-  border: 1px solid #fff;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 2rem 3rem;
 }
 
-.box-1 {
+.flex-top {
   flex: 2;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: linear-gradient(#f72749, #f9c73b);
 }
-.box-2 {
+.flex-bot {
   flex: 1;
+  background: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.nike {
+  margin-top: -1rem;
+  width: 75px;
+  filter: invert(100%);
+}
+
+.card-price {
+  font-weight: 400;
+  font-size: 2rem;
+  float: right;
 }
