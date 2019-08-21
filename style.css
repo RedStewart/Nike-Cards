@@ -193,6 +193,8 @@ button:hover {
 }
 
 .flex-top {
+  height: 100%;
+  position: relative;
   flex: 2;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -229,4 +231,13 @@ button:hover {
 
 .shoe-bio {
   margin-top: 1rem;
+}
+
+.shoe-image {
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  width: 550px;
+  transform: rotate(20deg);
+  filter: drop-shadow(20px 40px 30px rgba(0, 0, 0, 0.6));
 }
