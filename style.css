@@ -216,3 +216,17 @@ button:hover {
   font-size: 2rem;
   float: right;
 }
+
+.shoe-name {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
+
+.shoe-model {
+  font-weight: 400;
+}
+
+.shoe-bio {
+  margin-top: 1rem;
+}
