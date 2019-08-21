@@ -205,6 +205,9 @@ button:hover {
   background: #fff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  color: #aeaeae;
+  position: relative;
+  padding: 0 !important;
 }
 
 .nike {
@@ -240,4 +243,38 @@ button:hover {
   width: 550px;
   transform: rotate(20deg);
   filter: drop-shadow(20px 40px 30px rgba(0, 0, 0, 0.6));
+  z-index: 5;
+}
+
+.bot-container {
+  position: absolute;
+  padding: 0 !important;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bot-btn {
+  color: #8652f8;
+  font-weight: 800;
+  font-size: 1.25rem;
+  border: 2px solid #8652f8;
+  background: none;
+  letter-spacing: 1px;
+  padding: 1rem 3.5rem;
+  border-radius: 50px;
+  transition: 0.1s linear;
+  cursor: pointer;
+  width: 300px;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #8652f8;
+}
+
+.bot-bio {
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  font-weight: 500;
 }
