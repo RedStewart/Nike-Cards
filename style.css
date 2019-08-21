@@ -20,7 +20,9 @@ body {
 }
 
 .card {
-  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 16px 16px 16px 0 rgba(0, 0, 0, 0.5); */
+
   transition: 0.3s;
   border-radius: 20px;
   width: 500px;
@@ -30,99 +32,13 @@ body {
   transform: translateY(-50%);
 }
 
-/* .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+.card:hover {
+  box-shadow: 16px 16px 16px 0 rgba(0, 0, 0, 0.5);
 }
+
+/* 
 .card:hover .image-shoe {
   animation: bob 0.8s infinite alternate;
-}
-
-.card-third-top {
-  width: 100%;
-  height: 70%;
-  background-image: linear-gradient(#f72749, #f9c73b);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.card-content {
-  padding: 1rem 2.5rem 1rem 2.5rem;
-}
-
-.nike {
-  width: 5rem;
-  height: 5rem;
-  filter: invert(100%);
-  padding-bottom: 2rem;
-}
-
-.card-price {
-  float: right;
-  font-size: 2rem;
-  margin-top: 1.5rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-  margin-top: 0;
-  letter-spacing: 1px;
-}
-
-.card-bio {
-  position: absolute;
-  margin: 0;
-  width: 80%;
-}
-
-.image-shoe {
-  transform: rotate(35deg);
-  position: relative;
-  width: 575px;
-  height: auto;
-  filter: drop-shadow(20px 40px 30px rgba(0, 0, 0, 0.6));
-  z-index: 9;
-  top: 130px;
-  left: 40px;
-}
-
-.card-third-bot {
-  color: #abadae;
-  letter-spacing: 1px;
-  background-color: #ffffff;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  height: 30%;
-  position: relative;
-}
-
-.card-bot-content {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-}
-
-h3 {
-  margin-bottom: 2rem;
-  font-weight: 400;
-}
-
-button {
-  color: #8652f8;
-  font-weight: 800;
-  font-size: 1.25rem;
-  border: 2px solid #8652f8;
-  background: none;
-  letter-spacing: 1px;
-  padding: 1rem 4.5rem;
-  border-radius: 50px;
-  transition: 0.1s linear;
-  cursor: pointer;
-}
-
-button:hover {
-  color: #ffffff;
-  background-color: #8652f8;
 }
 
 @keyframes bob {
