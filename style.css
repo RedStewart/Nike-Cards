@@ -13,6 +13,10 @@ body {
   height: 100%;
 }
 
+.grid-3 {
+  display: grid;
+}
+
 .card-collection {
   display: flex;
   justify-content: center;
