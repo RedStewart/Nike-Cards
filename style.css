@@ -28,13 +28,13 @@ body {
 }
 
 .grid-item-2 {
-  background-image: linear-gradient(#8850fe, #671ffd);
+  background-image: linear-gradient(rgb(58, 58, 58), #1b1b1b);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .grid-item-2 .flex-top {
-  background-image: linear-gradient(black, rgb(53, 53, 53));
+  background-image: linear-gradient(black, #353535);
 }
 
 .grid-item-3 {
@@ -153,9 +153,9 @@ body {
   padding: 0 !important;
 }
 
-.nike {
-  margin-top: -1rem;
-  width: 75px;
+.logo {
+  /* margin-top: -1rem; */
+  width: 60px;
   filter: invert(100%);
 }
 
