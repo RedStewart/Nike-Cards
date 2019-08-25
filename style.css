@@ -55,9 +55,23 @@ body {
 }
 
 .grid-item-3 {
-  background-image: linear-gradient(#8850fe, #671ffd);
+  /* background-image: linear-gradient(#0099f7, #f11712); */
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.grid-item-3 .flex-top {
+  background-image: linear-gradient(#0099f7, #f11712);
+}
+
+.grid-item-3 .bot-btn {
+  color: #ff9100;
+  border: 2px solid #ff9100;
+}
+
+.grid-item-3 .bot-btn:hover {
+  color: #ffffff;
+  background-color: #ff9100;
 }
 
 .card-collection {
@@ -204,6 +218,12 @@ body {
   transform: rotate(20deg);
   filter: drop-shadow(20px 40px 30px rgba(0, 0, 0, 0.6));
   z-index: 5;
+}
+
+.shoe-low {
+  top: 400px;
+  left: 30px;
+  width: 550px;
 }
 
 .bot-container {
