@@ -19,8 +19,6 @@ body {
 }
 
 .grid-item-1 {
-  width: 100%;
-  height: 100%;
   background-image: linear-gradient(#8850fe, #671ffd);
   background-repeat: no-repeat;
   background-attachment: fixed;
