@@ -87,7 +87,7 @@ body {
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.3);
   transition: 0.3s;
   border-radius: 20px;
-  width: 500px;
+  max-width: 500px;
   height: 840px;
 }
 /* 
