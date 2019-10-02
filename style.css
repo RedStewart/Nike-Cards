@@ -34,6 +34,7 @@ main {
 .background-div {
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .background-1 {
@@ -91,12 +92,13 @@ main {
 }
 
 .card {
-  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.3); */
   transition: 0.3s;
-  border-radius: 20px;
+  border-radius: 10px;
   max-width: 500px;
   height: 840px;
   /* z-index: 2; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .card:hover {
@@ -179,14 +181,14 @@ main {
   height: 100%;
   position: relative;
   flex: 2;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .flex-bot {
   flex: 1;
   background: #fff;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   color: #aeaeae;
   position: relative;
   padding: 0 !important;
